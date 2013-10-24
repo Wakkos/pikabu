@@ -24,6 +24,7 @@ This module is also hosted on Mobify's CDN
     <script src="//cdn.mobify.com/modules/pikabu/0.1.0/pikabu.min.js"></script>
 
 ## Basic Usage
+tttt
 
 First create an instance of Pikabu like this:
 
