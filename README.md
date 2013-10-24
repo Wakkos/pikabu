@@ -35,6 +35,7 @@ First create an instance of Pikabu like this:
             right: '70%'
         }
     });
+    pikabu.init();
     
 
 Once you've created the pikabu instance as shown above, 
@@ -60,6 +61,10 @@ main content container. By default these are prefixed with
         
         <!-- the main page content -->
         <div class="m-pikabu-container">
+            
+            <!-- Overlay is needed to have a big click area to close the sidebars -->
+            <div class="m-pikabu-overlay"></div>
+
             <header>
                 <a class="m-pikabu-nav-toggle" data-role="left">
                     Left Menu
